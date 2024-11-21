@@ -1,0 +1,27 @@
+.custom-cursor {
+    font-size: 24px; /* Define o tamanho */
+    color: #fff; /* Altere a cor do cursor */
+    animation: blink 1.4s infinite; /* Controle a velocidade do piscar */
+  font-weight: bold;
+  }
+  
+  /* Animação para o efeito de piscar */
+  @keyframes blink {
+    0%, 50% {
+      opacity: 1;
+    }
+    51%, 100% {
+      opacity: 0;
+    }
+  }
+  
+  .typewriter {
+    font-family: 'Roboto Mono', monospace;
+  }
+
+  .typewriterText {
+    font-family: 'Roboto Mono', monospace;
+    color: #CDC9C9;
+    font-size: 20px;
+  }
+
