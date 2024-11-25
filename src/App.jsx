@@ -4,6 +4,7 @@ import Aside from "./containers/aside";
 import Desc from "./containers/sobre";
 import Home from "./containers/home";
 import Projetos from "./containers/projetos";
+import Footer from "./containers/footer";
 
 function App() {
   const [activeTab, setActiveTab] = useState("home");
@@ -26,7 +27,10 @@ function App() {
     <>
       <GlobalStyle />
       <Aside setActiveTab={setActiveTab} />
-      <Container>{renderContent()}</Container>
+      <Container>
+        {renderContent()}
+<Footer />
+      </Container>
     </>
   );
 }

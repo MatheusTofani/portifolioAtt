@@ -11,9 +11,14 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
         background-color: #141414;
+        
     }
 `;
 
 export const Container = styled.div`
-margin-left: 300px;
+  margin-left: 300px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
 `;

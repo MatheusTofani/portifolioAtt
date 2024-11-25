@@ -17,7 +17,9 @@ const Aside = ({ setActiveTab }) => {
   const handleItemClick = (tab) => {
     setActiveTab(tab);
     setActiveItem(tab);
+    window.scrollTo(0, 0); 
   };
+  
 
   return (
     <AsideContainer>
