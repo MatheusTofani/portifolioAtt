@@ -1,4 +1,4 @@
-import ReactLogo from "../../assets/react.png"
+import ReactLogo from "../../../assets/react.png"
 import { ReactImg } from "./style"
 
 const React = () => {

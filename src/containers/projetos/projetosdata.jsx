@@ -1,10 +1,10 @@
 import GamesShop from "../../../Public/gamesshop.png";
-import Caco from "../../assets/caco.png";
-import Raku from "../../assets/raku.png";
-import OnePiece from "../../assets/onepiece.png";
-import Visionaire from "../../assets/visionaire.png";
-import Pokedex from "../../assets/pokedex.png";
-import Port from "../../assets/portifolio.png"; 
+import Caco from "../../../assets/caco.png";
+import Raku from "../../../assets/raku.png";
+import OnePiece from "../../../assets/onepiece.png";
+import Visionaire from "../../../assets/visionaire.png";
+import Pokedex from "../../../assets/pokedex.png";
+import Port from "../../../assets/portifolio.png"; 
 const projetosData = {
   EBAC: [
     {

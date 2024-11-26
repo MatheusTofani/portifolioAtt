@@ -1,12 +1,12 @@
 import Descricao from "../../components/descricao";
 import Habilidades from "../../components/habilidades";
 import { Container, Content, Grid, Title } from "./style";
-import HTML from "../../assets/html.png"
-import CSS from "../../assets/css.png"
-import Java from "../../assets/java.png"
-import React from "../../assets/reactlogo.png"
-import Boot from "../../assets/bootstrap.png"
-import Type from "../../assets/type.png"
+import HTML from "../../../assets/html.png"
+import CSS from "../../../assets/css.png"
+import Java from "../../../assets/java.png"
+import React from "../../../assets/reactlogo.png"
+import Boot from "../../../assets/bootstrap.png"
+import Type from "../../../assets/type.png"
 const Desc = () => {
   const habilidadesData = [
     { nome: "HTML", imagem: HTML, fill: "96%" },
