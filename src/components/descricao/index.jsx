@@ -9,8 +9,8 @@ import {
     TextContainer,
   } from "./style";
   import "./style.css";
-  import Eu from "../../assets/eu.png";
-  import Cmd from "../../assets/cmd.png";
+  import Eu from "../../../assets/eu.png";
+  import Cmd from "../../../assets/cmd.png";
   import Typewriter from "typewriter-effect";
   import { Tilt } from 'react-tilt'
   

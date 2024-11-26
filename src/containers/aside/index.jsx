@@ -12,7 +12,7 @@ import {
 import { IoHomeSharp } from "react-icons/io5";
 import { BsCollectionFill } from "react-icons/bs";
 import { BsLightbulbFill } from "react-icons/bs";
-import Eu from "../../assets/eu.png";
+import Eu from "../../../assets/eu.png";
 const Aside = ({ setActiveTab }) => {
   const [activeItem, setActiveItem] = useState("home");
 
