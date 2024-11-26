@@ -9,11 +9,11 @@ import Boot from "../../assets/bootstrap.png"
 import Type from "../../assets/type.png"
 const Desc = () => {
   const habilidadesData = [
-    { nome: "HTML", imagem: HTML, fill: "80%" },
-    { nome: "CSS", imagem: CSS, fill: "70%" },
-    { nome: "JavaScript", imagem: Java, fill: "60%" },
-    { nome: "TypeScript", imagem: Type, fill: "90%" },
-    { nome: "React", imagem: React, fill: "90%" },
+    { nome: "HTML", imagem: HTML, fill: "96%" },
+    { nome: "CSS", imagem: CSS, fill: "90%" },
+    { nome: "JavaScript", imagem: Java, fill: "88%" },
+    { nome: "TypeScript", imagem: Type, fill: "81%" },
+    { nome: "React", imagem: React, fill: "86%" },
     { nome: "Bootstrap", imagem: Boot, fill: "90%" },
   ];
 
@@ -23,7 +23,7 @@ const Desc = () => {
     <Descricao />
       </Container>
       <Content>
-        <Title>Habilidades</Title>
+        <Title>Conhecimentos</Title>
       <Grid>
       {habilidadesData.map((habilidade, index) => (
           <Habilidades

@@ -5,9 +5,9 @@ const Footer = () => {
    <Container>
     <Title>MatheusTófani © 2024</Title>
     <Icons>
-        <Link>  <FaGithub /></Link>
-  <Link>  <FaInstagram /></Link>
-  <Link> <FaLinkedin /></Link>
+        <Link href="https://github.com/MatheusTofani" target="_blank" rel="noopener noreferrer">  <FaGithub /></Link>
+  <Link href="https://www.linkedin.com/in/matheus-tofani-b85954328/" target="_blank" rel="noopener noreferrer">  <FaInstagram /></Link>
+  <Link href="https://www.instagram.com/matheus.tofani/" target="_blank" rel="noopener noreferrer"> <FaLinkedin /></Link>
    
     </Icons>
    </Container>

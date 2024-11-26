@@ -29,14 +29,11 @@ export const Itens = styled.div`
   text-decoration: none;
   display: inline-block; /* ou flex, dependendo do layout que você deseja */
 
-  &:hover {
-    cursor: pointer;
-    color: #6edbfb; /* Remover o !important */
-  }
 `;
 
 export const ImageProject = styled.img`
   width: 90%;
+  height: 200px;
 `;
 
 export const ItemTitle = styled.h3`
@@ -67,6 +64,7 @@ export const ItemLink = styled.a`
 transition: all 0.2s ease-in-out;
   &:hover {
     color: #6edbfb; 
+    transform: scale(1.02);
   }
 `;
 

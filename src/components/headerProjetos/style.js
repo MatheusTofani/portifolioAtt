@@ -21,6 +21,12 @@ export const Search = styled.input`
   border: none;
   font-size: 16px;
   margin-right: 10px;
+  color: white;
+
+  &:focus {
+    outline: none;
+    border: 1px solid white;
+  }
 `;
 
 export const Button = styled.button`

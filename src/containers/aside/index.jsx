@@ -6,11 +6,13 @@ import {
   AsideListItemText,
   AsideTitle,
   AsideListWrapper,
+  Image,
+  TitleText,
 } from "./style";
 import { IoHomeSharp } from "react-icons/io5";
 import { BsCollectionFill } from "react-icons/bs";
 import { BsLightbulbFill } from "react-icons/bs";
-
+import Eu from "../../assets/eu.png";
 const Aside = ({ setActiveTab }) => {
   const [activeItem, setActiveItem] = useState("home");
 
@@ -23,7 +25,10 @@ const Aside = ({ setActiveTab }) => {
 
   return (
     <AsideContainer>
-      <AsideTitle>Teste</AsideTitle>
+      <AsideTitle>
+        <Image src={Eu} />
+      <TitleText>Matheus Tófani</TitleText>
+      </AsideTitle>
       <AsideListWrapper>
         <AsideList>
           <AsideListItem

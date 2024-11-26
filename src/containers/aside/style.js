@@ -62,6 +62,7 @@ export const AsideListItem = styled.li`
   margin: 15px 0;
   padding: 10px;
   width: 100%;
+  transition: all 0.2s ease-in-out;
 
   &:hover {
     color: #6edbfb;
@@ -73,4 +74,14 @@ export const AsideListItemText = styled.div`
   font-family: "Roboto Mono";
   text-align: left; 
   flex-grow: 1; 
+`;
+
+export const Image = styled.img`
+  height: 200px;
+  clip-path: circle(38%);
+`;
+
+export const TitleText = styled.div`
+ color: white;
+ font-family: "Poppins";
 `;
