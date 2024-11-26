@@ -1,4 +1,4 @@
-import GamesShop from "../../assets/gamesshop.png";
+import GamesShop from "../../../Public/gamesshop.png";
 import Caco from "../../assets/caco.png";
 import Raku from "../../assets/raku.png";
 import OnePiece from "../../assets/onepiece.png";
